@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  /* overflow-x: hidden; */
+}
+
+body {
+  margin: 0;
+  font-family: "poppins";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier-new";
+}
+
+.hero,
+.news-letter {
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+
+.offers {
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+
+.popular hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: #252525;
+}
+
+.new-collections hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: #252525;
+}
+
+.selected {
+  background-color: rgb(228, 46, 46);
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+/* .collections{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
